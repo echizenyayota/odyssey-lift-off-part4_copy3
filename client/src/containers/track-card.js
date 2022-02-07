@@ -39,8 +39,8 @@ const TrackCard = ({ track }) => {
 
   return (
     <CardContainer 
-      to={`/track/${id}`}
-      onClick = {incrementTrackViews}
+        to={`/track/${id}`}
+        onClick = {incrementTrackViews}
     >
       <CardContent>
         <CardImageContainer>
